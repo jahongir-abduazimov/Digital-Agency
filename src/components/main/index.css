@@ -1,0 +1,10 @@
+.intro-bt {
+    background-image: url('../../assets/images/intro-bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.line-parent:hover .line {
+    background-color: #165DF5;
+}

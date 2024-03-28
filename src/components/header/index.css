@@ -1,0 +1,41 @@
+header {
+    backdrop-filter: blur(8px);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+}
+
+.logo {
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list-item a {
+    font-weight: 500;
+    color: #000000B2;
+}
+
+.header-button {
+    padding: 11px 24px;
+    border: none;
+    background: #165DF5;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.header-button:hover {
+    background: #165df5bf;
+}
